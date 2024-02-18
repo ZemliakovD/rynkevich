@@ -131,7 +131,9 @@
               <div class="banners-slider-item"><img src="img/banner.jpg" alt=""></div>
               <div class="banners-slider-item"><img src="img/banner.jpg" alt=""></div>
             </div>
-            <button class="button"><p>Забронировать <br> дату</p> <img src="img/red_arrow.png" alt=""></button>
+            <button class="button">
+              <p>Забронировать <br> дату</p> <img src="img/red_arrow.png" alt="">
+            </button>
           </div>
         </div>
       </div>
@@ -143,14 +145,20 @@
       <div class="row">
         <div class="col-12">
           <div class="start-inner">
-            <div class="start-banner">
-              <img src="img/top_concert.png" alt="">
+            <div class="start-banner scrollme">
+              <img src="img/top_concert.png" alt="" class="animateme" data-when="enter" data-from="0.4" data-to="0"
+                data-opacity="0" data-translatex="1000" data-easing="easeinout">
             </div>
-            <div class="start-title">
-              <h1 >Ведущий <br> Влад Рынкевич</h1>
+            <div class="start-title scrollme">
+              <h1 class="animateme" data-when="enter" data-from="0.4" data-to="0" data-opacity="0"
+                data-translatex="-1000" data-easing="easein">Ведущий <br> Влад Рынкевич</h1>
+                <h1 class="desc-title">Ведущий <br> Влад Рынкевич</h1>
             </div>
             <div class="start-info">
-              <p>Всем привет! Меня зовут Влад Рынкевич. Я ведущий. В Минске, Беларуси и за рубежом. Опыт в проведении и организации мероприятий более 9 лет. Я знаю, как сделать так, чтобы абсолютно каждый гость почувствовал себя важным и значимым. Со мной легко, надежно и комфортно на всех этапах: от подготовки к мероприятию и до его финала. Гарантирую оперативную реакцию, вовлечённость и четкость.</p>
+              <p>Всем привет! Меня зовут Влад Рынкевич. Я ведущий. В Минске, Беларуси и за рубежом. Опыт в проведении и
+                организации мероприятий более 9 лет. Я знаю, как сделать так, чтобы абсолютно каждый гость почувствовал
+                себя важным и значимым. Со мной легко, надежно и комфортно на всех этапах: от подготовки к мероприятию и
+                до его финала. Гарантирую оперативную реакцию, вовлечённость и четкость.</p>
               <button>
                 <p>Забронировать <br> дату</p> <img src="img/button_arrow.png" alt="">
               </button>
@@ -165,8 +173,13 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="setvices-title">
-            <h2>Услуги</h2>
+          <div class="setvices-title scrollme">
+            <h2 class="animateme"
+            data-when="enter"
+            data-from="0.4"
+            data-to="0"
+            data-opacity="0"
+            data-translatex="-1000">Услуги</h2>
             <a href="#">Подробнее</a>
           </div>
           <div class="services-content">
@@ -236,11 +249,16 @@
     </div>
   </section>
 
-  <section class="gallery">
+  <section class="gallery scrollme">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2>Фотоальбом</h2>
+          <h2 class="animateme"
+          data-when="enter"
+          data-from="0.4"
+          data-to="0"
+          data-opacity="0"
+          data-translatex="-1000">Фотоальбом</h2>
           <div class="gallery-inner">
             <div class="gallery-item-top">
               <div class="item-top-left">
@@ -270,11 +288,16 @@
     </div>
   </section>
 
-  <section class="contacts">
+  <section class="contacts scrollme">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2>Контакты</h2>
+          <h2 class="animateme"
+          data-when="enter"
+          data-from="0.4"
+          data-to="0"
+          data-opacity="0"
+          data-translatex="-1000">Контакты</h2>
           <div class="contacts-inner">
             <div class="contacts-top">
               <div class="contacts-top-item">
@@ -306,11 +329,16 @@
       </div>
     </div>
   </section>
-  <section class="call">
+  <section class="call scrollme">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2>Связаться со мной</h2>
+          <h2 class="animateme"
+          data-when="enter"
+          data-from="0.4"
+          data-to="0"
+          data-opacity="0"
+          data-translatex="-1000">Связаться со мной</h2>
           <div class="call-inner">
             <form class="call-form">
               <input type="text" class="form-control" placeholder="Имя" aria-label="First name">
@@ -368,6 +396,8 @@
     crossorigin="anonymous"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.scrollme.js"></script>
+  <script src="js/jquery.scrollme.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
