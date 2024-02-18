@@ -683,7 +683,320 @@ h2{
 }
 
 @media (max-width: 767.98px) {
+    
+    h2{
+        font-size: 30px;
+    }
 
+
+    .header-inner{
+        margin-bottom: 15px;
+    }
+
+    .menu-inner{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .menu-inner .navbar-brand{
+        margin-right: 0;
+    }
+
+    .menu-inner .navbar-brand img{
+        width: 20%;
+    }
+
+    .logo-text p{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .logo-text span{
+        font-size: 14px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .connection{
+        display: none;
+    }
+
+    .offcanvas-header .navbar-brand{
+        display: flex;
+        align-items: center;
+    }
+
+    .offcanvas-header .navbar-brand img{
+        width: 25%;
+        margin-right: 5px;
+    }
+
+    .offcanvas-body{
+        padding-top: 0;
+    }
+
+    .offcanvas-body ul{
+        margin-bottom: 20px;
+    }
+
+    .offcanvas-body .connection{
+        display: block;
+    }
+
+    .offcanvas-body .connection .social{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .desc-toggle{
+        display: block;
+    }
+
+    .banners{
+        margin-bottom: 50px;
+    }
+
+    .slick-prev, .slick-next{
+        display: none !important;
+    }
+
+    .banner-inner .button{
+        width: 50%;
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        margin-left: 0px;
+        margin-top: -15px;
+    }
+
+    .desc-slides{
+        display: none !important;
+    }
+
+    .m-slides{
+        display: block !important;
+    }
+
+    .banners-slider img{
+        min-height: 162px;
+        -webkit-filter: grayscale(99%); 
+        filter: grayscale(99%); 
+    }
+
+    .banners-slider img:hover{
+        transition: filter .7s ease-in-out;
+        -webkit-filter: grayscale(0%); 
+        filter: grayscale(0%);
+        cursor: pointer;
+    }
+    
+    .start{
+        margin-bottom: 50px;
+    }
+
+    .start-banner{
+        display: none;
+    }
+
+    .start-title{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .start-title h1{
+        font-size: 40px;
+    }
+
+    .start-info{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .start-info p{
+        width: 100%;
+        max-width: 100%;
+        font-size: 12px;
+        line-height: 21px;
+        margin-bottom: 25px;
+    }
+
+    .start-info button{
+        width: 100%;
+        max-width: 187.5px;
+        padding: 5px;
+    }
+
+    .start-info button p{
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 0;
+    }
+
+    .services{
+        margin-bottom: 50px;
+    }
+
+    .setvices-title{
+        margin-bottom: 25px;
+    }
+
+    .setvices-title h2{
+        margin-right: 25px;
+    }
+
+    .setvices-title a{
+        font-size: 12px;
+    }
+
+    .services-slider-item{
+       max-width: 100%;
+    }
+
+    .gallery{
+        margin-bottom: 50px;
+    }
+
+    .gallery h2{
+        margin-bottom: 25px;
+    }
+
+    .gallery-item-top, .gallery-item-bottom{
+        flex-wrap: wrap;
+    }
+
+    .item-top-left, .item-top-right{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .gallery-bottom-card{
+        width: 49%;
+        margin-bottom: 5px;
+        margin-right: 7px;
+    }
+
+    .gallery-bottom-card:nth-child(2){
+        margin-right: 0;
+    }
+
+    .gallery-bottom-card:last-child{
+        margin-right: 0;
+    }
+
+    .contacts{
+        margin-bottom: 50px;
+    }
+
+    .contacts h2{
+        margin-bottom: 25px;
+    }
+
+    .contacts-top{
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .contacts-top-item{
+        width: 50%;
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+
+    .contacts-top-item span{
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+    .contacts-top-item p, .contacts-top-item a{
+        font-size: 14px;
+    }
+
+    .call{
+        margin-bottom: 50px;
+    }
+
+    .call h2{
+        margin-bottom: 25px;
+    }
+
+    .call-form{
+        flex-wrap: wrap;
+    }
+
+    .call-form input{
+        width: 100%;
+        margin-right: 0;
+        padding: 15px 10px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .call-form input::placeholder{
+        font-size: 12px;
+    }
+
+    .call-form button{
+        width: 100%;
+        padding: 15px 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+    .footer-inner{
+        padding: 12px 12px;
+    }
+
+    .footer-logo{
+        width: 33%;
+    }
+
+    .footer-logo img{
+        width: 35%;
+    }
+
+    .logo-text p{
+        font-size: 10px;
+    }
+
+    .logo-text span{
+        font-size: 10px;
+    }
+
+    .footer-menu{
+        width: 33%;
+    }
+
+    .footer-menu ul{
+        flex-direction: column;
+    }
+
+    .footer-menu ul li{
+        margin-right: 0;
+    }
+
+    .footer-menu ul li a, .footer-phone a{
+        font-size: 10px;
+    }
+
+    .footer-contacts{
+        width: 33%;
+        flex-direction: column;
+    }
+
+    .footer-social{
+        margin-right: 0;
+    }
+
+    .copyright{
+        font-size: 12px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
 
 
