@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Фото мероприятий | Ведущий Влад Рынкевич</title>
+    <link rel="icon" href="img/fav.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-inner">
+                        <nav class="navbar navbar-dark bg-dark fixed-top">
+                            <div class="container-fluid">
+                                <div class="menu-inner">
+                                    <a class="navbar-brand" href="index.html">
+                                        <img src="img/logo.png" alt="">
+                                        <div class="logo-text">
+                                            <p>Ведущий</p>
+                                            <span>Влад Рынкевич</span>
+                                        </div>
+                                    </a>
+                                    <div class="menu">
+                                        <ul>
+                                            <li><a href="index.html">Главная</a></li>
+                                            <li><a href="services.html">Услуги</a></li>
+                                            <li><a href="photo.html">Фотоальбом</a></li>
+                                            <li><a href="#" id="contacts">Контакты</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="connection">
+                                        <div class="social">
+                                            <a href="https://t.me/vladvedu" target="_blank">
+                                                <img src="img/h_telegram.png" alt="">
+                                            </a>
+                                            <a href="https://www.instagram.com/vlad_rynkevich/" target="_blank">
+                                                <img src="img/h_instagram.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="phone">
+                                            <a href="tel:+375291249830">+375 (29) 124-98-30</a>
+                                        </div>
+                                    </div>
+                                    <button class="navbar-toggler desc-toggle" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                                        aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                                    aria-labelledby="offcanvasDarkNavbarLabel">
+                                    <div class="offcanvas-header">
+                                        <a class="navbar-brand" href="index.html">
+                                            <img src="img/logo.png" alt="">
+                                            <div class="logo-text">
+                                                <p>Ведущий</p>
+                                                <span>Влад Рынкевич</span>
+                                            </div>
+                                        </a>
+                                        <button type="button" class="btn-close btn-close-white"
+                                            data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                            <li class="nav-item">
+                                                <a class="nav-link"
+                                                    href="index.html">Главная</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="services.html">Услуги</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="photo.html">Фотоальбом</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#" id="contacts">Контакты</a>
+                                            </li>
+                                        </ul>
+                                        <div class="connection">
+                                            <div class="social">
+                                                <a href="https://t.me/vladvedu" target="_blank">
+                                                    <img src="img/h_telegram.png" alt="">
+                                                </a>
+                                                <a href="https://www.instagram.com/vlad_rynkevich/" target="_blank">
+                                                    <img src="img/h_instagram.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="phone">
+                                                <a href="tel:+375291249830">+375 (29) 124-98-30</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="photo scrollme">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="animateme"
+                    data-when="enter"
+                    data-from="0.4"
+                    data-to="0"
+                    data-opacity="0"
+                    data-translatex="-1000">Фотогалерея</h2>
+                </div>
+            </div>
+        </div>
+        <div class="photo-inner">
+            <div class="slider-for">
+                <div class="slider-for-item">
+                    <div class="slider-for-photo">
+                        <img src="img/media/photo/photo_1.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-for-item">
+                    <div class="slider-for-photo">
+                        <img src="img/media/photo/photo_2.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-for-item">
+                    <div class="slider-for-photo">
+                        <img src="img/media/photo/photo_3.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-for-item">
+                    <div class="slider-for-photo">
+                        <img src="img/media/photo/photo_4.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-for-item">
+                    <div class="slider-for-photo">
+                        <img src="img/media/photo/photo_5.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-for-item">
+                    <div class="slider-for-photo">
+                        <img src="img/media/photo/photo_6.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-for-item">
+                    <div class="slider-for-photo">
+                        <img src="img/media/photo/photo_7.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-for-item">
+                    <div class="slider-for-photo">
+                        <img src="img/media/photo/photo_8.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-for-item">
+                    <div class="slider-for-photo">
+                        <img src="img/media/photo/photo_9.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <div class="slider-nav-item">
+                    <div class="slider-nav-photo">
+                        <img src="img/media/photo/photo_1.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-nav-item">
+                    <div class="slider-nav-photo">
+                        <img src="img/media/photo/photo_2.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-nav-item">
+                    <div class="slider-nav-photo">
+                        <img src="img/media/photo/photo_3.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-nav-item">
+                    <div class="slider-nav-photo">
+                        <img src="img/media/photo/photo_4.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-nav-item">
+                    <div class="slider-nav-photo">
+                        <img src="img/media/photo/photo_5.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-nav-item">
+                    <div class="slider-nav-photo">
+                        <img src="img/media/photo/photo_6.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-nav-item">
+                    <div class="slider-nav-photo">
+                        <img src="img/media/photo/photo_7.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-nav-item">
+                    <div class="slider-nav-photo">
+                        <img src="img/media/photo/photo_8.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-nav-item">
+                    <div class="slider-nav-photo">
+                        <img src="img/media/photo/photo_9.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts scrollme">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="animateme"
+                    data-when="enter"
+                    data-from="0.4"
+                    data-to="0"
+                    data-opacity="0"
+                    data-translatex="-1000">Контакты</h2>
+                    <div class="contacts-inner">
+                        <div class="contacts-top">
+                            <div class="contacts-top-item">
+                                <span>Адрес</span>
+                                <p>Минск, <br> Леси Украинки, 16</p>
+                            </div>
+                            <div class="contacts-top-item">
+                                <span>Телефон</span>
+                                <a href="tel:+375291249830">+375 (29) 124-98-30</a>
+                            </div>
+                            <div class="contacts-top-item">
+                                <span>Email</span>
+                                <a href="mailto:info@rynkevich.by">info@rynkevich.by</a>
+                            </div>
+                            <div class="contacts-top-item">
+                                <span>Социальные сети</span>
+                                <a href="https://desktop.telegram.org/" target="_blank">Телеграм</a>
+                                <a href="https://www.viber.com/ru/" target="_blank">Вайбер</a>
+                            </div>
+                        </div>
+                        <div class="contacts-map">
+                            <iframe
+                                src="https://yandex.ru/map-widget/v1/?um=constructor%3A2605f542a799caddbe642625e34ae1dd2bbfd6c38dcb4b85fe29d301111c2b0b&amp;source=constructor"
+                                width="100%" height="448" frameborder="0">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="call scrollme">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="animateme"
+                    data-when="enter"
+                    data-from="0.4"
+                    data-to="0"
+                    data-opacity="0"
+                    data-translatex="-1000">Связаться со мной</h2>
+                    <div class="call-inner">
+                        <form class="call-form">
+                            <input type="text" class="form-control" placeholder="Имя" aria-label="First name">
+                            <input type="text" class="form-control" placeholder="Телефон" aria-label="Last name">
+                            <button type="submit" class="btn btn-primary">Позвони мне</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-inner">
+                        <a href="#" class="footer-logo">
+                            <img src="img/logo.png" alt="">
+                            <div class="logo-text">
+                                <p>Ведущий</p>
+                                <span>Влад Рынкевич</span>
+                            </div>
+                        </a>
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="services.html">Услуги</a></li>
+                                <li><a href="photo.html">Фотоальбом</a></li>
+                                <li><a href="#" id="contacts">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-contacts">
+                            <div class="footer-social">
+                                <a href="https://desktop.telegram.org/" target="_blank">
+                                    <img src="img/h_telegram.png" alt="">
+                                </a>
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <img src="img/h_instagram.png" alt="">
+                                </a>
+                            </div>
+                            <div class="footer-phone">
+                                <a href="tel:+375291249830">+375 (29) 124-98-30</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="copyright">© 2024. Все права защищены</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
